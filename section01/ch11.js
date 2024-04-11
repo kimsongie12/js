@@ -67,7 +67,8 @@ let area2 = getArea(30,20);
 console.log(area2); //600출력
 */
 
-//함수 안에 또다른 함수 선언이 가능하다
+/*
+//함수 내부에 또다른 함수 선언이 가능하다 => 중첩 함수
 function getArea(width , height){
 
     function another() {
@@ -84,3 +85,8 @@ console.log(area1); //200출력
 
 let area2 = getArea(30,20);
 console.log(area2); //600출력
+*/
+
+//js 호이스팅 : 끌어올리다
+//선언문을 호출문보다 아래에 두어도 호이스팅으로 인해 선언문이 위로 끌어져서 실행된다!!
+// 호이스팅 덕분에 함수 선언이 무조건 위에 있지 않아도 된다는 장점이 있다
