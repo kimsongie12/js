@@ -76,4 +76,4 @@ let varC = (vaule) => {
     console.log(vaule);
     return vaule + 1;
 };
-console.log(varC(10));
+console.log(varC(10)); // 10 11 출력.
