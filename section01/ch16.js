@@ -20,7 +20,7 @@ console.log(animal); */
 const person = {
     name: "song",
 
-    //메소드
+    //메소드는 익명함수도 화살표 함수도 가능
     sayHi: function(){
         console.log("hi");
     },
